@@ -1,0 +1,24 @@
+{
+  "name": "angular",
+  "version": "1.0.0",
+  "description": "angular hw",
+  "main": "index.js",
+  "scripts": {
+    "create": "ng new my-site"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/cli": "^10.1.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeySherban/angular.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SergeySherban/angular/issues"
+  },
+  "homepage": "https://github.com/SergeySherban/angular#readme"
+}

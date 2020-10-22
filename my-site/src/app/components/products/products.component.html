@@ -1,0 +1,17 @@
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col" *ngFor = "let column of headers">{{ column }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor = "let row of rows">
+        <td>{{ row.id }}</td>
+        <td>{{ row.name }}</td>
+        <td>{{ row.price }}</td>
+        <td>
+            <button class="bnt btn-danger" (click)="deleteProduct(row.id)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>

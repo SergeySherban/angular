@@ -10,6 +10,7 @@ import { MainContainerComponent } from './components/main-container/main-contain
 import { AboutUsComponent } from './components/main-container/about-us/about-us.component';
 import { FeaturesComponent } from './components/main-container/features/features.component';
 import { BenefitsComponent } from './components/main-container/benefits/benefits.component';
+import { ProductsComponent } from './components/products/products.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BenefitsComponent } from './components/main-container/benefits/benefits
     MainContainerComponent,
     AboutUsComponent,
     FeaturesComponent,
-    BenefitsComponent
+    BenefitsComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,

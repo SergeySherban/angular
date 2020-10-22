@@ -9,9 +9,8 @@ import { Router } from '@angular/router';
 export class MainContainerComponent implements OnInit {
 
   router: string;
-  constructor(private _router: Router) {
-    console.log(_router.url)
-    this.router = _router.url;
+  constructor() {
+    
   }
 
   ngOnInit(): void {
